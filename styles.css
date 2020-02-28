@@ -188,7 +188,11 @@ ul {
 }
 .bottom-info{
   display:flex;
+  font-size: 10px;
+  justify-content: space-evenly;
 }
 .links-footer{
-  display:inline-flex
+  display:flex;
+  width: 80%;
+  justify-content: space-evenly;
 }
