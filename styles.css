@@ -106,13 +106,37 @@ ul {
   margin-top: 100px;
 }
 
+.main-section p{
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
 .main-photo-description{
   width: 712px;
+  color: #666666;
+  font-size: 15px;
+}
+
+.credit{
+  font-size: 13px;
+  color: #888888;
 }
 
 .main-icons{
   display: flex;  
   justify-content: space-between;
+}
+
+.icon-background{
+  background-color: #eeeeee;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+.second-photo-description{
+  color: #666666;
+  font-size: 15px;
 }
 
 .main-content-width{
