@@ -158,14 +158,24 @@ h2.article-text{
   color: #666666;
   font-size: 15px;
 }
-
+.video-description{
+  color: #666666;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .main-content-width{
   width: 600px;
 }
+.text-links{
+  color:#326891;
+  text-decoration: underline;
 
+}
 .author{
   justify-content: flex-start;
 }
+
 .infographic{
   margin-top: 20px;
   width: 880px;
@@ -188,8 +198,9 @@ h2.article-text{
 }
 .infographic-subtitle{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-bottom: 15px;
-  color: #eeeeee;
+  margin-bottom: 14px;
+  color: #666666;
+  padding-bottom:20px;
 }
 .infographic-grid{
   display: grid;
@@ -202,9 +213,23 @@ h2.article-text{
   width: 60px;
   
 }
+.grid-title{
+  font-weight: bold;
+}
 .infographic-author{
   clear: left;
   padding-top: 15px;
+}
+.article-final{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+}
+.comments-button{
+  width: 350px;
+}
+.final-buttons{
+  float: right;
 }
 .more-news {
   padding: 6%;
