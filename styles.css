@@ -65,6 +65,9 @@ header {
   background-color: #ffffff;
   top: 0px;
 }
+.left-icons *{
+  padding-left: 15px;
+}
 .bar-title{
   font-weight: 700;
   padding-left: 15px;
@@ -165,7 +168,18 @@ h2.article-text{
 }
 .infographic{
   margin-top: 20px;
-  width: 800px;
+  width: 880px;
+  margin-bottom: 40px;
+}
+.infographic-element{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+.infographic-element-introduction{
+  font-weight: bold;
 }
 .infographic-title{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -181,11 +195,20 @@ h2.article-text{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(2,1fr);
+  margin-bottom: 60px;
+}
+.infographic-line{
+  float: left;
+  width: 60px;
+  
+}
+.infographic-author{
+  clear: left;
+  padding-top: 15px;
 }
 .more-news {
   padding: 6%;
   display: flex;
-
 }
 .news-articles{
   flex-grow:3;
