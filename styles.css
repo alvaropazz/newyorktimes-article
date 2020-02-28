@@ -282,6 +282,7 @@ footer{
   color:#ffffff;
   background-color: #000000;
   bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .footer-info{
   display:grid;
@@ -310,4 +311,14 @@ footer{
 .final-list{
   padding-left: 15px;
   border-left: 1px solid #000000;
+}
+.list-title{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.final-logo{
+  margin-bottom: 20px;
+}
+.items{
+  margin-bottom: 40px;
 }
