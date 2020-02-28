@@ -47,55 +47,17 @@ table {
 	border-spacing: 0;
 }
 
-@font-face {
-  font-family: 'cheltenham';
-  src: url(./fonts/cheltenham-normal-500.ttf);
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'cheltenham';
-  src: url(./fonts/cheltenham-normal-700.ttf);
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'franklin';
-  src: url(./fonts/franklin-normal-500.ttf);
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'franklin';
-  src: url(./fonts/franklin-normal-700.ttf);
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'imperial';
-  src: url(./fonts/imperial-normal-500.ttf);
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'imperial';
-  src: url(./fonts/imperial-normal-700.ttf);
-  font-weight: 700;
-  font-style: normal;
-}
-
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 } 
+i{
+  margin:0 0 0 15px;
+}
 header {
+  font-family: Arial, Helvetica, sans-serif;
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
   display: flex;
@@ -106,12 +68,31 @@ header {
   background-color: #ffffff;
   top: 0px;
 }
+.bar-title{
+  font-weight: 700;
+  padding-left: 15px;
+}
 .navbar-button {
   background-color: #567b95;
   border-radius: 3px;
   color: #ffffff;
   font-size: 11px;
   padding: 11px 12px 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.article-title{
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2em;
+  padding-bottom: 30px;
+  width: 40%;
+}
+.login-button{
+  margin-right: 15px;
 }
 ul {
   display: inline-flex;
@@ -176,8 +157,20 @@ ul {
 .left-container{
   margin-right: 3%;
 }
-.footer{
-  padding: 7%;
+.footer-section{
+  padding: 3%;
+  margin-bottom: 60px;
+}
+footer{
+  align-items: center;
+  display: flex;
+  height: 55px;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  color:#ffffff;
+  background-color: #000000;
+  bottom: 0px;
 }
 .footer-info{
   display:grid;
@@ -195,4 +188,15 @@ ul {
   display:flex;
   width: 80%;
   justify-content: space-evenly;
+}
+.bottom-button{
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+
+}
+.final-list{
+  padding-left: 15px;
+  border-left: 1px solid #000000;
 }
