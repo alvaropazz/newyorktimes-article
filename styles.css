@@ -177,6 +177,9 @@ header {
   font-weight: 600;
 }
 
+.article-date {
+  width: 150px;
+}
 .article-title {
   display: flex;
   justify-content: center;
@@ -246,6 +249,11 @@ h2.article-text {
   margin-top: 30px;
 }
 
+.sociallinks-container {
+  display: flex;
+  justify-content: flex-end;
+
+}
 .icon-container {
   width: 30px;
   height: 30px;
@@ -368,13 +376,13 @@ h2.article-text {
 }
 
 .article-final {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
-  width: 600px;
 }
 
 .comments-button {
   width: 350px;
+  margin-right: 30px;
 }
 
 .final-buttons {
