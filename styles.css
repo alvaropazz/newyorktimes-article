@@ -3,62 +3,50 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 
 body {
-	  line-height: 1;
+  line-height: 1;
 }
 
 ol, ul {
-	  list-style: none;
+  list-style: none;
 }
 
 blockquote, q {
-	  quotes: none;
+  quotes: none;
 }
 
 blockquote::before, blockquote::after,
 q::before, q::after {
-	  content: '';
-	  content: none;
+  content: '';
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 header {
@@ -259,13 +247,13 @@ h2.article-text {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 14px;
   color: #666;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
 
 .infographic-grid {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   margin-bottom: 60px;
   grid-column-gap: 15px;
 }
@@ -275,7 +263,7 @@ h2.article-text {
   width: 60px;
 }
 
-.grid-title{
+.grid-title {
   font-weight: bold;
 }
 
@@ -306,8 +294,8 @@ h2.article-text {
 .news-articles {
   flex-grow: 3;
   display: grid;
-  grid-template-rows: repeat(2,1fr);
-  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
 
@@ -318,8 +306,8 @@ h2.article-text {
 .editors-picks-bottom {
   flex-grow: 3;
   display: grid;
-  grid-template-rows: repeat(1,1fr);
-  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
 
@@ -344,7 +332,7 @@ footer {
   height: 55px;
   width: 100%;
   position: fixed;
-  color:#fff;
+  color: #fff;
   background-color: #000;
   bottom: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -352,7 +340,7 @@ footer {
 
 .footer-info {
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .footer-lists {
