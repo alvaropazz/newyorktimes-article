@@ -64,6 +64,7 @@ header {
   position: fixed;
   background-color: #ffffff;
   top: 0px;
+  z-index: 1;
 }
 .left-icons *{
   padding-left: 15px;
@@ -287,6 +288,8 @@ h2.article-text{
   font-size:14px;
 }
 footer{
+  padding-top: 20px; 
+  text-align: center;
   height: 55px;
   width: 100%;
   position: fixed;
@@ -302,15 +305,25 @@ footer{
 .footer-lists{
   display: block;
 }
+.footer-lists li{
+  text-decoration: none;
+}
+.footer-lists li:hover{
+  text-decoration: underline;
+}
 .bottom-info{
   display:flex;
   font-size: 10px;
   justify-content: space-evenly;
+  color: #666666;
 }
 .links-footer{
   display:flex;
   width: 80%;
   justify-content: space-evenly;
+}
+.links-footer li:hover{
+  text-decoration: underline;
 }
 .bottom-button{
   background-color: #000000;
@@ -384,10 +397,11 @@ footer{
   text-decoration: none;
 }
 .nyt-offer-text{
-  display: flex;
+  margin-left: 111px;
 }
 .nyt-offer-button {
-  right: 100px;
+  float: right;
+  margin-right: 70px;
 }
 aside{
   position: absolute;
@@ -404,4 +418,8 @@ aside{
 .aside-images{
   float: left;
   margin-right: 5px;
+}
+.editors-picks-line{
+  width: 200px;
+  margin: 10px 0;
 }
