@@ -158,8 +158,13 @@ header {
   z-index: 1;
 }
 
-.left-icons * {
-  padding-left: 15px;
+.left-icons{
+  margin-left: 15px;
+}
+
+.header-icon-buttons{
+  background-color: #fff;
+  border: none;
 }
 
 .bar-title {
@@ -585,6 +590,11 @@ aside {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
   line-height: 18px;
+}
+
+.article-link {
+  color: #000;
+  text-decoration: none;
 }
 
 .aside-images {
