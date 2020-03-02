@@ -114,10 +114,14 @@ h2.article-text{
   margin-bottom: 19px;
   line-height: 30px;
 }
+.first-image{
+  margin-top: 35px;
+}
 .main-photo-description{
   width: 712px;
   color: #666666;
   font-size: 15px;
+  line-height: 15x;
 }
 
 .credit{
@@ -154,15 +158,21 @@ h2.article-text{
   padding: 10px;
   font-size: 14px;
 }
+.second-image{
+  margin-top: 40px;
+}
 .second-photo-description{
   color: #666666;
   font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  line-height: 15x;
 }
 .video-description{
   color: #666666;
   font-size: 15px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 .main-content-width{
   width: 600px;
@@ -361,4 +371,18 @@ footer{
 }
 .first-right{
   margin-top: 25px;
+}
+
+.newspaper-information{
+  font-size: 12px;
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.newspaper-information span{
+  text-decoration: underline;
+}
+
+.newspaper-information span:hover{
+  text-decoration: none;
 }
