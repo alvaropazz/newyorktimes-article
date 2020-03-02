@@ -185,6 +185,10 @@ h2.article-text{
 .notification-line{
   width: 80px;
 }
+.notification-line2{
+  width: 80px;
+  margin-bottom: 40px;
+}
 .notification1{
   margin-top: 10px;
   font-weight: bold;
@@ -409,11 +413,16 @@ aside{
   top: 1500px;
   right: 90px;
 }
+.aside-titles{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
 .aside-items{
-  width: 180px;
-  height: 120px;
+  width: 220px;
+  height: 90px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 18px;
 }
 .aside-images{
   float: left;
