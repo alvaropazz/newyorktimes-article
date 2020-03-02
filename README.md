@@ -1,73 +1,50 @@
-# Project Name
+# Positioning and Floating Elements
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](images/project-screenshot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML, CSS,
+- Visual Studio Code
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://alvaropazz.github.io/newyorktimes-article/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+**In this project we created a clone of a New York Times article using CSS and HTML. The main themes applied in this project were Flexbox and Grids.**
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Alvaro Paz**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@alvaropazz](https://github.com/alvaropazz)
+- Twitter: [@alvaropazz](https://twitter.com/alvaropazz)
+- Linkedin: [linkedin](https://www.linkedin.com/in/alvaropaz/)
 
-👤 **Author2**
+👤 **Luis Octavio Ramírez Cruz**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@LOctavio](https://github.com/LOctavio)
+- Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
+- Linkedin: [linkedin](https://www.linkedin.com/in/luis-octavio-ramirez-cruz-714521178/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/alvaropazz/newyorktimes-article/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
