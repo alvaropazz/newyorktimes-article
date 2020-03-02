@@ -180,6 +180,7 @@ header {
 .article-date {
   width: 150px;
 }
+
 .article-title {
   display: flex;
   justify-content: center;
@@ -252,8 +253,8 @@ h2.article-text {
 .sociallinks-container {
   display: flex;
   justify-content: flex-end;
-
 }
+
 .icon-container {
   width: 30px;
   height: 30px;
