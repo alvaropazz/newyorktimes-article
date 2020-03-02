@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -16,54 +16,62 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+	  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+	  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+	  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+	  content: '';
+	  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 header {
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid#e2e2e2;
   display: flex;
   height: 43px;
   justify-content: space-between;
   width: 100%;
   position: fixed;
-  background-color: #ffffff;
-  top: 0px;
+  background-color: #fff;
+  top: 0;
   z-index: 1;
 }
 
@@ -79,7 +87,7 @@ header {
 .navbar-button {
   background-color: #567b95;
   border-radius: 3px;
-  color: #ffffff;
+  color: #fff;
   font-size: 11px;
   padding: 11px 12px 8px;
   font-family: Arial, Helvetica, sans-serif;
@@ -130,20 +138,21 @@ h2.article-text {
 
 .main-photo-description {
   width: 712px;
-  color: #666666;
+  color: #666;
   font-size: 15px;
-  line-height: 15x;
+  line-height: 15px;
 }
 
 .credit {
   font-size: 13px;
-  color: #888888;
+  color: #888;
 }
 
 .author {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-top: 40px;
+  justify-content: flex-start;
 }
 
 .main-icons {
@@ -157,7 +166,7 @@ h2.article-text {
 .icon-container {
   width: 30px;
   height: 30px;
-  background-color: #eeeeee;
+  background-color: #eee;
   border-radius: 100%;
   margin: 5px;
   padding: 10px;
@@ -167,7 +176,7 @@ h2.article-text {
 .icons-two {
   width: 30px;
   height: 30px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 100%;
   margin: 5px;
   padding: 10px;
@@ -179,15 +188,15 @@ h2.article-text {
 }
 
 .second-photo-description {
-  color: #666666;
+  color: #666;
   font-size: 15px;
   margin-top: 15px;
   margin-bottom: 40px;
-  line-height: 15x;
+  line-height: 15px;
 }
 
 .video-description {
-  color: #666666;
+  color: #666;
   font-size: 15px;
   margin-top: 15px;
   margin-bottom: 40px;
@@ -197,8 +206,8 @@ h2.article-text {
   width: 600px;
 }
 
-.text-links{
-  color:#326891;
+.text-links {
+  color: #326891;
   text-decoration: underline;
 }
 
@@ -222,10 +231,6 @@ h2.article-text {
   color: #326891;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.author {
-  justify-content: flex-start;
 }
 
 .infographic {
@@ -253,7 +258,7 @@ h2.article-text {
 .infographic-subtitle {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 14px;
-  color: #666666;
+  color: #666;
   padding-bottom:20px;
 }
 
@@ -306,7 +311,7 @@ h2.article-text {
   gap: 15px;
 }
 
-.most-popular{ 
+.most-popular {
   flex-grow: 1;
 }
 
@@ -339,9 +344,9 @@ footer {
   height: 55px;
   width: 100%;
   position: fixed;
-  color:#ffffff;
-  background-color: #000000;
-  bottom: 0px;
+  color:#fff;
+  background-color: #000;
+  bottom: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -363,14 +368,14 @@ footer {
 }
 
 .bottom-info {
-  display:flex;
+  display: flex;
   font-size: 10px;
   justify-content: space-evenly;
   color: #666;
 }
 
 .links-footer {
-  display:flex;
+  display: flex;
   width: 80%;
   justify-content: space-evenly;
 }
